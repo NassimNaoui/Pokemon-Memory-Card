@@ -1,0 +1,164 @@
+{
+  "squirtle": {
+    "name_en": "squirtle",
+    "name_fr": "carapuce",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+  },
+  "totodile": {
+    "name_en": "totodile",
+    "name_fr": "kaiminus",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
+  },
+  "mudkip": {
+    "name_en": "mudkip",
+    "name_fr": "gobou",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png"
+  },
+  "piplup": {
+    "name_en": "piplup",
+    "name_fr": "tiplouf",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png"
+  },
+  "oshawott": {
+    "name_en": "oshawott",
+    "name_fr": "moustillon",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png"
+  },
+  "froakie": {
+    "name_en": "froakie",
+    "name_fr": "grenousse",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+  },
+  "popplio": {
+    "name_en": "popplio",
+    "name_fr": "otaquin",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png"
+  },
+  "sobble": {
+    "name_en": "sobble",
+    "name_fr": "larméléon",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png"
+  },
+  "quaxly": {
+    "name_en": "quaxly",
+    "name_fr": "coiffeton",
+    "type": "water",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png"
+  },
+  "bulbasaur": {
+    "name_en": "bulbasaur",
+    "name_fr": "bulbizarre",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  "chikorita": {
+    "name_en": "chikorita",
+    "name_fr": "germignon",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+  },
+  "treecko": {
+    "name_en": "treecko",
+    "name_fr": "arcko",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+  },
+  "turtwig": {
+    "name_en": "turtwig",
+    "name_fr": "tortipouss",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
+  },
+  "snivy": {
+    "name_en": "snivy",
+    "name_fr": "vipélierre",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+  },
+  "chespin": {
+    "name_en": "chespin",
+    "name_fr": "marisson",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+  },
+  "rowlet": {
+    "name_en": "rowlet",
+    "name_fr": "brindibou",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+  },
+  "grookey": {
+    "name_en": "grookey",
+    "name_fr": "ouistempo",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
+  },
+  "sprigatito": {
+    "name_en": "sprigatito",
+    "name_fr": "poussacha",
+    "type": "grass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
+  },
+  "charmander": {
+    "name_en": "charmander",
+    "name_fr": "salamèche",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  },
+  "cyndaquil": {
+    "name_en": "cyndaquil",
+    "name_fr": "héricendre",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png"
+  },
+  "torchic": {
+    "name_en": "torchic",
+    "name_fr": "poussifeu",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+  },
+  "chimchar": {
+    "name_en": "chimchar",
+    "name_fr": "ouisicram",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png"
+  },
+  "tepig": {
+    "name_en": "tepig",
+    "name_fr": "gruikui",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png"
+  },
+  "fennekin": {
+    "name_en": "fennekin",
+    "name_fr": "feunnec",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+  },
+  "litten": {
+    "name_en": "litten",
+    "name_fr": "flamiaou",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png"
+  },
+  "scorbunny": {
+    "name_en": "scorbunny",
+    "name_fr": "flambino",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png"
+  },
+  "fuecoco": {
+    "name_en": "fuecoco",
+    "name_fr": "chochodile",
+    "type": "fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
+  }
+}
