@@ -4,9 +4,16 @@ import "./App.css";
 import Header from "./Header";
 
 function App() {
+  const [activeType, setActiveType] = useState("aqua");
+
   return (
     <>
-      <Header />
+      <div
+        className="relative bg-cover bg-center h-full"
+        style={{ backgroundImage: `url(/src/assets/${activeType}-gym.png)` }}
+      >
+        <Header setActiveType={setActiveType} />
+      </div>
     </>
   );
 }
