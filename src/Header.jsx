@@ -9,7 +9,10 @@ function Header({ setActiveType }) {
         md:grid-rows-1 md:grid-cols-3 md:justify-items-stretch md:justify-between md:text-lg"
       >
         <div className="flex flex-row gap-3 row-start-2 md:col-start-1 md:row-start-1">
-          <div className="cursor-pointer" onClick={() => setActiveType("aqua")}>
+          <div
+            className="cursor-pointer"
+            onClick={() => setActiveType("water")}
+          >
             <img
               src="/src/assets/Badge_Cascade_Kanto_LGPE.png"
               alt="cascade-badge"

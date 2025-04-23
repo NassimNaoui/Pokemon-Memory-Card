@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 import Header from "./Header";
+import Body from "./Body";
 
 function App() {
-  const [activeType, setActiveType] = useState("aqua");
+  const [activeType, setActiveType] = useState("water");
 
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         style={{ backgroundImage: `url(/src/assets/${activeType}-gym.png)` }}
       >
         <Header setActiveType={setActiveType} />
+        <Body activeType={activeType}></Body>
       </div>
     </>
   );
