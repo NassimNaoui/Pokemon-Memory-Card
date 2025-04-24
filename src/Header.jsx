@@ -4,7 +4,7 @@ function Header({ setActiveType }) {
   return (
     <>
       <header
-        className="absolute w-full bg-gray-100/25 text-[#121212] text-sm px-10
+        className="w-full bg-gray-100/25 text-[#121212] text-sm px-10
         grid grid-rows-3 grid-cols-1 justify-items-center items-center
         md:grid-rows-1 md:grid-cols-3 md:justify-items-stretch md:justify-between md:text-lg"
       >
