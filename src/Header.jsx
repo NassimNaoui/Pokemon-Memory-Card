@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Header({ setActiveType }) {
+function Header({ setActiveType, score, record }) {
   return (
     <>
       <header
@@ -8,7 +8,7 @@ function Header({ setActiveType }) {
         grid grid-rows-3 grid-cols-1 justify-items-center items-center
         md:grid-rows-1 md:grid-cols-3 md:justify-items-stretch md:justify-between md:text-lg"
       >
-        <div className="flex flex-row gap-3 row-start-2 md:col-start-1 md:row-start-1">
+        <div className="w-30 flex flex-row gap-3 row-start-2 md:col-start-1 md:row-start-1">
           <div
             className="cursor-pointer"
             onClick={() => setActiveType("water")}
@@ -49,8 +49,8 @@ function Header({ setActiveType }) {
           id="score-record"
           className="row-start-3 flex flex-col font-bold text-center md:col-start-3 md:row-start-1 md:text-right"
         >
-          <div>Score : 0</div>
-          <div>Record : 0</div>
+          <div>Score : {score}</div>
+          <div>Record : {record}</div>
         </div>
       </header>
     </>
