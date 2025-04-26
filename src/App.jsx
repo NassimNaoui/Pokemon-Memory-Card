@@ -16,7 +16,6 @@ function App() {
 
   useEffect(() => {
     const savedRecord = localStorage.getItem("record");
-    console.log("Loaded from localStorage:", savedRecord);
     if (savedRecord !== null) {
       setRecord(parseInt(savedRecord));
     }

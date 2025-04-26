@@ -36,6 +36,8 @@ function Body({ activeType, setScore, getRecord }) {
     grass: "#b0dfae",
   });
 
+  console.log(color[activeType]);
+
   return (
     <>
       <div className=" flex-1 flex justify-center items-center">
@@ -43,7 +45,7 @@ function Body({ activeType, setScore, getRecord }) {
           <GenerateCards
             randomIndex={randomIndex}
             pokemonObject={Object.entries(pokemon_type)}
-            color={color[activeType]}
+            activeType={activeType}
             idTracker={(e) => {
               idTracker(e), generateRandomIndex();
             }}
@@ -56,17 +58,19 @@ function Body({ activeType, setScore, getRecord }) {
 
 export default Body;
 
-function GenerateCards({ randomIndex, pokemonObject, color, idTracker }) {
+function GenerateCards({ randomIndex, pokemonObject, activeType, idTracker }) {
   return randomIndex.map((index) => (
     <div
       className={`w-[90%] max-w-70 cursor-pointer flex flex-col justify-center items-center text-center 
-      rounded-xl bg-gradient-to-t from-[${color}] to-[#FDFDFD]/70 shadow-none 
-      md:rounded-3xl hover:shadow-2xl shadow-amber-500`}
+    rounded-xl bg-gradient-to-t ${activeType === "fire" ? "from-[#d9a7a7]" : ""}
+    ${activeType === "water" ? "from-[#88a4c6]" : ""}
+    ${activeType === "grass" ? "from-[#b0dfae]" : ""}
+    to-[#FDFDFD]/70 shadow-none md:rounded-3xl hover:shadow-2xl shadow-amber-500`}
       id={pokemonObject[index][0]}
       onClick={idTracker}
     >
       <img className="w-75" src={pokemonObject[index][1].sprite} alt="" />
-      <div className="text-sm font-bold text-[#121212] p-2 md:text-lg from-[#d9a7a7]">
+      <div className="text-sm font-bold text-[#121212] p-2 md:text-lg">
         {pokemonObject[index][1].name_en}
       </div>
     </div>
