@@ -36,8 +36,6 @@ function Body({ activeType, setScore, getRecord }) {
     grass: "#b0dfae",
   });
 
-  console.log(color[activeType]);
-
   return (
     <>
       <div className=" flex-1 flex justify-center items-center">

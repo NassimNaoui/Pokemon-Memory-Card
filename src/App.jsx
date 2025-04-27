@@ -62,7 +62,9 @@ function App() {
     <>
       <div
         className="relative bg-cover bg-center h-full flex flex-col"
-        style={{ backgroundImage: `url(/src/assets/${activeType}-gym.png)` }}
+        style={{
+          backgroundImage: `url(/assets/${activeType}-gym.png)`,
+        }}
       >
         <Header setActiveType={setActiveType} score={score} record={record} />
         <Body

@@ -14,7 +14,7 @@ function Header({ setActiveType, score, record }) {
             onClick={() => setActiveType("water")}
           >
             <img
-              src="/src/assets/Badge_Cascade_Kanto_LGPE.png"
+              src={`/assets/Badge_Cascade_Kanto_LGPE.png`}
               alt="cascade-badge"
             />
           </div>
@@ -23,13 +23,13 @@ function Header({ setActiveType, score, record }) {
             onClick={() => setActiveType("grass")}
           >
             <img
-              src="/src/assets/Badge_Prisme_Kanto_LGPE.png"
+              src={`/assets/Badge_Prisme_Kanto_LGPE.png`}
               alt="rainbow-badge"
             />
           </div>
           <div className="cursor-pointer" onClick={() => setActiveType("fire")}>
             <img
-              src="/src/assets/Badge_Volcan_Kanto_LGPE.png"
+              src={`/assets/Badge_Volcan_Kanto_LGPE.png`}
               alt="volcano-badge"
             />
           </div>
@@ -40,7 +40,7 @@ function Header({ setActiveType, score, record }) {
         >
           <img
             className="w-30"
-            src="/src/assets/International_Pokémon_logo.svg.png"
+            src={`/assets/International_Pokémon_logo.png`}
             alt="Logo-pokémon"
           />
           <div className="text-center font-bold">Memory Card Game.</div>
